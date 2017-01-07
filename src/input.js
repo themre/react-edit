@@ -18,7 +18,6 @@ const input = ({ props } = {}) => {
         defaultValue={value}
         onKeyUp={onKeyUp}
         onBlur={onBlur}
-        autoFocus
         {...props}
       />
     );
